@@ -4,17 +4,17 @@ const PasswordInput = document.getElementById("Pass-input")
 
 const  user = [
  {
-    email: "tron",
+    email: "Mali",
     Password : "1234",
-    balance : 150,
+    balance : 200,
  },
- {email: "brandon",
+ {email: "Gera",
  Password : "4567",
- balance : 150, 
+ balance : 290, 
 },
- {email: "protalento",
+ {email: "Maui",
  Password : "7890",
- balance : 150,
+ balance : 67,
 }
 ]
 

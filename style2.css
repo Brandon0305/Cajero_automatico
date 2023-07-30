@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+height: 100vh;
+width: 100vw;
+display: flex;
+background-image: url(./assets/imagenes/smoney.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+align-items: center;
+justify-content: center;  
+}
+main{
+display: flex;
+justify-content: center;
+width: 50%;
+}
+
+#login-form{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

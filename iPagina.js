@@ -2,14 +2,14 @@
 
 const  SALIDA = document.getElementById("SALIDA")
 const SALDO = document.getElementById("SALDO")
-//const loggedUser= JSON.parse(localStorage.getItem ("result"))
-console.log(SALIDA)
+const loggedUser= JSON.parse(localStorage.getItem ("result"))
+
   
- //info.innerHTML = `<span> BIENVENIDO ${loggedUser.email}HOME BANCK </span> `;
+ 
 
  SALIDA.addEventListener("click", function(){
     let button= SALIDA.value
-
+  console.log(SALIDA);
  window.location.href= "./index.html"
 
 })
@@ -19,3 +19,4 @@ SALDO.addEventListener("click", function(){
 
  window.location.href= "./saldo.html"
 })
+info.innerHTML = `<span> BIENVENIDO ${loggedUser.email}HOME BANK </span> `;

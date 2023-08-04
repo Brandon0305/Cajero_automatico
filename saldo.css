@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+      background-image: url("https://images.pexels.com/photos/6802045/pexels-photo-6802045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     background-repeat: no-repeat;
+     background-size: cover;
+  
+
+      
+    }
+    header{
+      height: 15vh;
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+    main{
+   
+      height: 70vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .input{
+        display: flex;
+        height: 30px;
+        width: 500px;
+        border-radius: 15px;
+        
+    }
+    footer{
+     
+      height: 15vh;
+    }

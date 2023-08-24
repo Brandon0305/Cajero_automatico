@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link class="imagen_icono" rel="icon" href="./assets/imagenes/smoney.jpg" />
-    <link rel="stylesheet" href="./style2.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <script defer src="./home.js"></script>
-    <title>LOGIN</title>
-  </head>
-  <body>
-  
-    <main>
-        <form id="login-form">  <div class="contenedor">
-           
-            </div>
-            </div> 
-            <div class="mb-3">
-              <label for="email-input" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            <div class="mb-3">
-              <label for="Pass-input" class="form-label">Password</label>
-              <input type="password" class="form-control" id="Pass-input">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" id="btn-Login" class="btn btn-primary">Submit</button>
-          </form>
-          </div>
-        </div>
-    </main>
-  </body>
-  
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-    crossorigin="anonymous"
-  ></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="controller/home.js"></script>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>home</title>
  
+</head>
+<body>
+ <header>
+    <div id="User-name" ></div>
+      </div class="button" > 
+      <button id="btnlogout"> cerrar sesion</button>
+    </div>
+  </nav></header>
+  <main>
+    <div class="container"> 
+    <div class="card-saldo" style="width: 18rem;">
+        <img src="https://static.vecteezy.com/system/resources/previews/003/096/684/non_2x/money-bag-cartoon-illustration-vector.jpg" class="card-img-top" alt="saldo">
+        <div class="card-body">
+          <p class="card-text"><div id="User-balance"></div></p>
+        </div>
+      </div>
+      <div class="depositar" style="width: 18rem;">
+        <img src="https://www.semana.com/resizer/ScQ3y1R-TRDkWazV_h3IbD0qO6s=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/WI3MV3IZCNG43K5SA3MFCKIFJA.jpg" class="card-img-top" alt="deposito">
+        <div class="card-body">
+          <input type="number" class="input" id="num-input">
+          <p class="card-text"> <button id="btn-sumar">depositar</button>
+        </div>
+      </div>
+      <div class="retirar" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7p8ev0GWCE2Uty0KgiVmlAlwInOUiJptGg&usqp=CAU" class="card-img-top" alt="retiro">
+        <div class="card-body">
+          <p class="card-text"><div id="User-balance"><button id="btn-restar">retirar</button>
+        </div>
+      </div>
+   </div>
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
+<div id="User-balance"></div>
